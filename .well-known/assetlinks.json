@@ -1,0 +1,32 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sculptai.sculpt",
+      "sha256_cert_fingerprints": [
+        "YOUR_PRODUCTION_SHA256_FINGERPRINT"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sculptai.sculpt.staging",
+      "sha256_cert_fingerprints": [
+        "YOUR_STAGING_SHA256_FINGERPRINT"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.sculptai.sculpt.development",
+      "sha256_cert_fingerprints": [
+        "YOUR_DEV_SHA256_FINGERPRINT"
+      ]
+    }
+  }
+]

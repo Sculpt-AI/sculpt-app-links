@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "4734C4TSL7.com.sculptai.sculpt",
+        "paths": ["/r/*"]
+      },
+      {
+        "appID": "4734C4TSL7.com.sculptai.sculpt-staging",
+        "paths": ["/r/*"]
+      },
+      {
+        "appID": "4734C4TSL7.com.sculptai.sculpt-development",
+        "paths": ["/r/*"]
+      }
+    ]
+  }
+}
